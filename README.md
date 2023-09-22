@@ -1,6 +1,5 @@
 
 <h1 align="center">
-  <br>
   <img src="https://cdn3.iconfinder.com/data/icons/cryptocurrency-mining-flat/60/Cloud-Mining-Cryptocurrency-crypto-miner-512.png" width="60px" alt="downjs">
 </h1>
 
@@ -9,6 +8,7 @@
 **downjs** is a versatile Go script designed to simplify the process of downloading JavaScript files from various URLs and perform checks for the existence of associated .map files. This functionality is invaluable for developers and analysts who want to streamline the process of collecting JavaScript files for further analysis and debugging.
 
 [@xen00rw](https://github.com/xen00rw)
+
 It's your idea man! ;)
 
 ## Features

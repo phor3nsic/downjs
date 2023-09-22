@@ -8,7 +8,7 @@
 ## Intro
 **downjs** is a versatile Go script designed to simplify the process of downloading JavaScript files from various URLs and perform checks for the existence of associated .map files. This functionality is invaluable for developers and analysts who want to streamline the process of collecting JavaScript files for further analysis and debugging.
 
-@xen00rw
+[@xen00rw](https://github.com/xen00rw)
 It's your idea man! ;)
 
 ## Features
@@ -36,5 +36,5 @@ go install github.com/phor3nsic/downjs@latest
 
 cat jslist.txt | downjs
 ```
-3. downjs will download the specified JavaScript files and check for the existence of .map files, saving them for future analysis in the same directory.
+3. Downjs will download the specified JavaScript files and check for the existence of .map files, saving them for future analysis in the same directory.
 4. Access the downloaded files and .map files in the designated output folder for further analysis and debugging.

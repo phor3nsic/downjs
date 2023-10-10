@@ -21,6 +21,20 @@ var (
 
 func main() {
 
+	fmt.Fprintln(os.Stderr, `
+
+	██████╗  ██████╗ ██╗    ██╗███╗   ██╗     ██╗███████╗
+	██╔══██╗██╔═══██╗██║    ██║████╗  ██║     ██║██╔════╝
+	██║  ██║██║   ██║██║ █╗ ██║██╔██╗ ██║     ██║███████╗
+	██║  ██║██║   ██║██║███╗██║██║╚██╗██║██   ██║╚════██║
+	██████╔╝╚██████╔╝╚███╔███╔╝██║ ╚████║╚█████╔╝███████║
+	╚═════╝  ╚═════╝  ╚══╝╚══╝ ╚═╝  ╚═══╝ ╚════╝ ╚══════╝
+														 
+	
+	`)
+	fmt.Fprintln(os.Stderr, "[i] by: deeplooklabs.com")
+	fmt.Fprintln(os.Stderr, "[i] Waiting for download...")
+
 	flag.StringVar(&outputFolder, "o", "downjs_output", "Set Output folder")
 	flag.IntVar(&threads, "t", 20, "max threads to download files")
 	flag.Parse()

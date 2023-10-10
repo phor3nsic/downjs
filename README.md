@@ -1,7 +1,15 @@
 
-<h1 align="center">
-  <img src="https://cdn3.iconfinder.com/data/icons/cryptocurrency-mining-flat/60/Cloud-Mining-Cryptocurrency-crypto-miner-512.png" width="60px" alt="downjs">
-</h1>
+<div align="center">
+```
+
+	██████╗  ██████╗ ██╗    ██╗███╗   ██╗     ██╗███████╗
+	██╔══██╗██╔═══██╗██║    ██║████╗  ██║     ██║██╔════╝
+	██║  ██║██║   ██║██║ █╗ ██║██╔██╗ ██║     ██║███████╗
+	██║  ██║██║   ██║██║███╗██║██║╚██╗██║██   ██║╚════██║
+	██████╔╝╚██████╔╝╚███╔███╔╝██║ ╚████║╚█████╔╝███████║
+	╚═════╝  ╚═════╝  ╚══╝╚══╝ ╚═╝  ╚═══╝ ╚════╝ ╚══════╝
+```
+</div>
 
 
 ## Intro
@@ -24,7 +32,7 @@ It's your idea man! ;)
 ## Install
 
 ```bash
-go install github.com/phor3nsic/downjs@latest
+go install github.com/deeplooklabs/downjs@latest
 ```
 
 ## Usage

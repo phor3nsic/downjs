@@ -10,8 +10,17 @@
 	╚═════╝  ╚═════╝  ╚══╝╚══╝ ╚═╝  ╚═══╝ ╚════╝ ╚══════╝
 ```
 </div>
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/deeplooklabs/downjs?color=56BEB8">
 
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/deeplooklabs/downjs?color=56BEB8">
 
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/deeplooklabs/downjs?color=56BEB8">
+
+  <img alt="License" src="https://img.shields.io/github/license/deeplooklabs/downjs?color=56BEB8">
+</p>
+
+## ##
 ## Intro
 **downjs** is a versatile Go script designed to simplify the process of downloading JavaScript files from various URLs and perform checks for the existence of associated .map files. This functionality is invaluable for developers and analysts who want to streamline the process of collecting JavaScript files for further analysis and debugging.
 

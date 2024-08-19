@@ -42,7 +42,7 @@ It's your idea man! ;)
 ## Install
 
 ```bash
-go install github.com/deeplooklabs/downjs@latest
+go install github.com/phor3nsic/downjs@latest
 ```
 
 ## Usage

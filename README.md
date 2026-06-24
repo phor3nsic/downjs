@@ -12,13 +12,13 @@
 ```
 </div>
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/deeplooklabs/downjs?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/phor3nsic/downjs?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/deeplooklabs/downjs?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/phor3nsic/downjs?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/deeplooklabs/downjs?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/phor3nsic/downjs?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/deeplooklabs/downjs?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/phor3nsic/downjs?color=56BEB8">
 </p>
 
 ## ##
@@ -47,12 +47,11 @@ go install github.com/phor3nsic/downjs@latest
 
 ## Usage
 
-1. Create a text file named list.txt containing a list of URLs pointing to the JavaScript files you want to download. Each URL should be on a separate line.
-2. Execute the script using the following command:
+1. Create a text file (e.g. `jslist.txt`) containing a list of URLs pointing to the JavaScript files you want to download. Each URL should be on a separate line.
+2. Pipe the list into downjs:
 
 ```bash
-
 cat jslist.txt | downjs
 ```
-3. Downjs will download the specified JavaScript files and check for the existence of .map files, saving them for future analysis in the same directory.
+3. downjs will download the specified JavaScript files and check for the existence of associated .map files, saving them for further analysis in the same directory.
 4. Access the downloaded files and .map files in the designated output folder for further analysis and debugging.
